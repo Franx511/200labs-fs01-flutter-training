@@ -6,8 +6,6 @@ class ScreenValue {
   final BuildContext? _context;
   double? _height;
   double? _width;
-  double? _heightPadding;
-  double? _widthPadding;
 
   ScreenValue(this._context) {
     MediaQueryData _queryData = MediaQuery.of(_context!);
