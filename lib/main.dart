@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
         primaryColor: Colors.lightBlueAccent,
       ),
       routes: <String, WidgetBuilder>{
-        '/': (BuildContext context) => const ex_1(),
+        '/': (BuildContext context) => const Ex1(),
         // '/ex1': (BuildContext context) => MyPage(title: 'page B'),
         // '/ex2': (BuildContext context) => MyPage(title: 'page C'),
       },
