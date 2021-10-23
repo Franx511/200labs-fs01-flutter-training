@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_training_1/ex_1.dart';
+import 'package:flutter_training_1/ex_2_1.dart';
+import 'package:flutter_training_1/ex_2_2.dart';
+import 'package:flutter_training_1/ex_2_3.dart';
+import 'package:flutter_training_1/ex_2_4.dart';
+import 'package:flutter_training_1/menu.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,9 +26,12 @@ class _MyAppState extends State<MyApp> {
         primaryColor: Colors.lightBlueAccent,
       ),
       routes: <String, WidgetBuilder>{
-        '/': (BuildContext context) => const Ex1(),
-        // '/ex1': (BuildContext context) => MyPage(title: 'page B'),
-        // '/ex2': (BuildContext context) => MyPage(title: 'page C'),
+        '/': (BuildContext context) => const Menu(),
+        '/ex1': (BuildContext context) => const Ex1(),
+        '/ex2': (BuildContext context) => const Ex2v1(),
+        '/ex2v2': (BuildContext context) => const Ex2v2(),
+        '/ex2v3': (BuildContext context) => const Ex2v3(),
+        '/ex2v4': (BuildContext context) => const Ex2v4(),
       },
     );
   }

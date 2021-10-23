@@ -7,7 +7,6 @@ class ScreenValue {
 
   ScreenValue(this._context) {
     MediaQueryData _queryData = MediaQuery.of(_context!);
-
     _height = _queryData.size.height / 100.0;
     _width = _queryData.size.width / 100.0;
   }

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screen_value.dart';
+import 'service/screen_value.dart';
 
 class Ex1 extends StatelessWidget {
   const Ex1({Key? key}) : super(key: key);
